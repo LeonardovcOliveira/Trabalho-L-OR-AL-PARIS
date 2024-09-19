@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kodchasan", sans-serif;
+    background-color: #EFEEF3;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 600px;
+    justify-content: space-around;
+    flex-direction: initial;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 300px;
+    padding-left: 10vw;
+    margin: 0, 50vw;
+    
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 35vh;
+        list-style: none;
+
+        li {
+            padding: 20px;
+             }
+    }
+}
+
+.logo {
+
+    padding-left: 20px;
+
+}
+
+.imgfundo {
+
+    width: 100vw;
+    height: 22vh;
+
+}
+
+.primeiraSessao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30vw;
+        margin: 0x, 20px;
+
+        h1 {
+            font-weight: 500px;
+            font-size: 30px;
+            padding: 30px;
+        }
+
+        p {
+            font-size: 23px;
+            padding: 30px;
+            text-align: center;
+
+        }
+    }
+
+}
+
+.segundaSessao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+    h3{
+        font-size: 23px;
+        padding: 30px;
+        font-weight: 500;
+        margin-left: 10vw;
+    }
+
+    
+}
+
+.produtos1{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around;
+    margin-left: 20vw;
+    
+}
+
+.produtos2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    margin-right: 10vw;
+}
